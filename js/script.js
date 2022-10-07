@@ -6,7 +6,7 @@ console.log(slides);
 const root = new Vue({
     el: '#root',
     data: {
-        img: [
+        data: [
             {
                 image: 'img/01.jpg',
                 title: 'Svezia',
@@ -35,5 +35,4 @@ const root = new Vue({
         ]
     }
 }
-
 )
